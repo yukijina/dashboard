@@ -11,44 +11,45 @@ body {
 /* SideBar */
 #sidebar {
   height: 100%;
-  width: 100px;
+  width: 8%;
   position: fixed;
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: "blue";
+  background-color: blue;
   overflow-x: hidden:
 }
 
-.flex-container {
-  display: flex;
-  flex-direction: column;
+.container-wrapper {
+  width: 92%;
+  padding-right: 13%;
+  padding-left: 5%;
 }
 
 /* Profile */
 #profile {
-  background-color: "yelllow";
+  background-color: yellow;
   height: 100px;
   width: 100px;
 }
 
 /* Student Information */
 #student-info {
-  background-color: "red";
+  background-color: tomato;
   height: 100px;
     width: 100px;
 }
 
 /* Progress Section */
 #progress {
-  background-color: "green";
+  background-color: green;
   height: 100px;
   width: 100px;
 }
 
 /* Recent Activity */
 .recent {
-  background-color: "lightgray";
+  background-color: lightgray;
   height: 100px;
   width: 100px;
 }
