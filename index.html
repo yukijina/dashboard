@@ -36,23 +36,24 @@
 			<div class="row">
 				<!-- Profile -->
 				<div id="profile" class="col">
-					<div class="pic">
-						<img src="" alt="">
-						someimage
+					<div class="pic-wrapper mx-auto">
+						<img src="" alt="" id="pic">
 					</div>
-					<div class="">
-						<h2 id="user-name"></h2>
-						<p id="user-num"></p>
-					</div>
+					<div id="user-wrapper">
+						<h2 id="user-name" class="text-center"></h2>
+						<p id="userId" class="text-center"></div>
+					</p>
 				</div>
 
 				<!-- Progress Section  -->
 				<div id="progress" class="col">
-					<p id="time"></p>
+					<!-- Element for currenTime ** it should be div insted of p otherwise clock does not diplay well	 -->
+					<div id="clock"></div>
 					<h2>My Progress</h2>
 					<!-- progress bar -->
 					<div class="progress">
-						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+						<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+							<div id="progress-pct">test</div>
 						</div>
 					</div>
 					<button type="button">RESUME</button>
@@ -64,15 +65,20 @@
 				<!-- Lower Section -->
 				<!-- Student Information -->
 				<div id="student-info" class="col">
-					<p>COURSE</p>
-					<p>ACTIVITY</p>
-					<p>ACCOUNT</p>
+					<a href="#myinfo" id="course">COURSE</a>
+					<a href="#myinfo" id="activity">ACTIVITY</a>
+					<a href="#myinfo" id="account">ACCOUNT</a>
 				</div>
 
 		    <!-- Recent Activity -->
 				<div class="recent col">
-					<h2>My Recent Activity:</h2>
-					<div id="activity">
+					<div id="myinfo">
+						<h2 class="myH2"></h2>
+						<ul class="myUl">
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
 					</div>
 				</div>
 

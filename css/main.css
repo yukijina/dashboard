@@ -29,27 +29,28 @@ body {
 /* Profile */
 #profile {
   background-color: yellow;
-  height: 100px;
-  width: 100px;
+}
+.pic-wrapper {
+  width: 200px;
+}
+#pic {
+  width: 100%;
 }
 
 /* Student Information */
 #student-info {
   background-color: tomato;
-  height: 100px;
-    width: 100px;
+
 }
 
 /* Progress Section */
 #progress {
   background-color: green;
-  height: 100px;
-  width: 100px;
+
 }
 
 /* Recent Activity */
 .recent {
   background-color: lightgray;
-  height: 100px;
-  width: 100px;
+
 }
